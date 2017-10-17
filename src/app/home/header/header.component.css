@@ -1,0 +1,75 @@
+.app-header{
+    border-bottom: 1px solid #A7A7A7;
+}
+
+.app-menu-moblie{
+    padding: 10px;
+}
+
+.app-menu-moblie > a{
+    display: inline-block;
+    color: #474747;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.app-header > .app-navigation > ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.app-header > .app-navigation > ul > li{
+    display: inline-block;
+    float: left;
+}
+
+.app-header > .app-navigation > ul > li > a{
+    display: inline-block;
+    color: #474747;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.app-search{
+    display: block;
+    border: 1px solid #474747;
+    padding: 5px;
+}
+.app-search-mobile{
+    margin-bottom: 10px;
+}
+
+.app-search > i{
+    display: inline-block;
+    padding: 5px;
+    float: left;
+}
+
+.app-search > input{
+    float: left;
+    display: inline-block;
+    border: 0 ;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.app-social{
+    display: inline-block;
+    padding: 6px 0;
+}
+
+.app-social > a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+}
+
+.app-social > a:hover{
+    color: #D16704;
+}

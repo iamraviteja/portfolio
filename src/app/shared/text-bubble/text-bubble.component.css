@@ -1,0 +1,60 @@
+/* bubble styles */
+.bubble{
+    font-size: 16px;
+	color:#fff;
+	font-weight: 600;
+	text-transform: uppercase;
+
+	position: relative;
+	display: inline-block;
+
+	background-color: #3581B8;
+
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.bubble::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+/* center bubble styles */
+.bubble.center{
+    display: block;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.bubble.center::after{
+    left: 45%;
+    border-width: 20px 20px 0 20px;
+    border-color: #3581B8 transparent transparent transparent;
+}
+
+/* left bubble styles */
+.bubble.left{
+    align-self: flex-start;
+}
+
+.bubble.left::after{
+    left: 10px;
+    border-width: 20px 0 0 20px;
+    border-color: #3581B8 transparent transparent transparent;
+}
+
+/* right bubble styles */
+.bubble.right{
+    align-self: flex-end;
+}
+
+.bubble.right::after{
+    right: 10px;
+    border-width: 20px 20px 0 0;
+    border-color: #3581B8 transparent transparent transparent;
+}
