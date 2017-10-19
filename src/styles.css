@@ -4,9 +4,11 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Lato', sans-serif;
     font-size: 16px;
     line-height: 1.4;
+    background-color: #f2f3f9;
 }
 
 .navbar{
@@ -14,15 +16,31 @@ body{
 }
 
 .jumbotron{
-    background-color: #6f5499;
+    background-color: #6d0eb1;
+    /* background-color: #6f5499; */
     color: #fff;
     text-align: center;
+    padding-bottom: 100px;
+}
+
+.jumbotron p{
+    font-size: 1em;
+}
+
+.jumbotron p.lead-txt{
+    font-size: 2em;
+}
+
+.lead-txt span{
+    color: #ffec17;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .btn-outline {
     color: #563d7c;
     background-color: transparent;
-    border-color: #563d7c;
+    border-color: #e5e5e5;
 }
 
 .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
@@ -43,12 +61,30 @@ body{
     border-color: #fff;
 }
 
+.skill-row{
+    transform: translateY(-100px);
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin:10px;
+    padding:30px 10px;
+    /* box-shadow: 0px 0px 1px 1px #a5a5a5; */
+}
+
 .skill-row .media{
     margin-bottom: 20px;
 }
 
 .skill-row .media-object{
     max-width: 75px;
+}
+
+.skill-row .media-heading{
+    color: #e88137;
+}
+
+.skill-row .media-body p{
+    font-weight: 300;
 }
 
 .title{
@@ -63,11 +99,11 @@ body{
     content: '';
     position:absolute;
     z-index: -1;
-    bottom: -1px;
-    left: -5px;
-    width:115%;
-    height:0;
-    border: 5px solid #e88137;
+    bottom: -10px;
+    left: 0;
+    width: 105%;
+    height: 0;
+    border: 2px solid #e88137;
 }
 
 .skill-list{
@@ -103,6 +139,21 @@ body{
     background-color: #2693f1;
 }
 
+.work-row{
+    margin:0 10px;
+    margin-top:-100px;
+}
+
+.work-row-desc{
+    font-weight: 300;
+}
+
+.work-desc{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
 .exp-list{
     list-style: none;
 }
@@ -111,6 +162,7 @@ body{
     height: 200px;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #fff;
     border: 1px solid #a5a5a5;
     cursor: pointer;
     border-radius: 5px;
@@ -123,6 +175,10 @@ body{
     position: relative;
 
     margin: 20px 0;
+}
+
+.work-thumb{
+    width: 75%;
 }
 
 .work-overlay{
@@ -154,11 +210,14 @@ body{
 }
 
 .folio-footer{
-    background: #334854;
+    background-color: #29293a;
     color: #fff;
 }
 
 .folio-footer p{
     text-align: center;
     margin-top: 10px;
+    font-weight: 300;
+    font-size: 1em;
+    color: #838386;
 }
