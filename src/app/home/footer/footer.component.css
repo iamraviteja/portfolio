@@ -1,0 +1,22 @@
+.foot-nav-list{
+    list-style: none;
+    padding-left:10px;
+    padding-top: 20px;
+}
+
+.foot-nav-list li{
+    display: inline-block;
+}
+
+.foot-nav-list li a{
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.foot-nav-social{
+    padding-top: 20px;
+}
+.foot-nav-social a{
+    color: #fff;
+    padding: 5px 10px;
+}
